@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: ; */
+}
+
+nav .right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+
+
+}
+
+nav .right ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+}
+
+nav .right ul li{
+    list-style: none;
+}

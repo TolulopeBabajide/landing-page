@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+footer{
+    display: flex;
+    background-color:darkblue ;
+    justify-content: space-between;
+    padding: 20px;
+    color:white;
+
+
+}
+
+footer .first{
+    line-height: 25px;
+}
+
+footer .first .row1{
+    justify-content: space-evenly;
+}
+
+footer .first .row3{
+    gap: 20px;
+    width: 20%;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+footer ul li{
+    list-style: none;
+    font-weight: lighter;
+}
+footer ul  li:nth-child(1){
+    font-weight: 500;
+    font-size: large;
+}
+
+
+
